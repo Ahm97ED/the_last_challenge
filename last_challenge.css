@@ -1,0 +1,377 @@
+:root {
+    --PaleVioletsub-headingtopappUIcoloR: hsl(276, 100%, 81%);
+    --ModerateVioletchatleftcoloR: hsl(276, 55%, 52%);
+    --DesaturatedDarkVioletchatright: hsl(271, 15%, 43%);
+    --GrayishBlueplaceholder: hsl(206, 6%, 79%);
+    --VeryDarkDesaturatedVioletmainheading: hsl(271, 36%, 24%);
+    --DarkGrayishVioletparagraph: hsl(270, 7%, 64%);
+    --GradLightMagentaColor: hsl(293, 100%, 63%);
+    --GradLightVioletColor: hsl(264, 100%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrayishVioletappbackgroundColor: hsl(270, 20%, 96%);
+    --VeryDarkDesaturatedVioletsubmitbuttonbackgroundColor: hsl(271, 36%, 24%);
+    --VeryLightMagentaradiobuttonoutlineColor: hsl(289, 100%, 72%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--LightGrayishVioletappbackgroundColor);
+}
+
+.part-one {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.gradient-section {
+    width: 80%;
+    height: 90%;
+    background-image: linear-gradient(to top, var(--GradLightVioletColor), #ba52ff);
+    border-radius: 0px 0px 47% 50%;
+    position: absolute;
+    left: -140Px;
+}
+
+.phone-section {
+    width: 35%;
+    height: 72%;
+    background-color: var(--LightGrayishVioletappbackgroundColor);
+    border: 10px solid var(--White);
+    border-radius: 30px;
+    position: absolute;
+    top: 93px;
+    right: 93px;
+    box-shadow: 2px 3px 12px 6px #0000001f;
+    overflow: hidden;
+}
+
+.head {
+    width: 100%;
+    height: 12%;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, var(--GradLightVioletColor), var(--GradLightMagentaColor));
+}
+
+.head-section {
+    display: flex;
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 9px;
+    align-items: center;
+}
+
+.head-icon1 {
+    width: 10%;
+    height: 100%;
+}
+
+.icon1 {
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid var(--White);
+    border-bottom: 2px solid var(--White);
+    margin-top: 21.5px;
+    margin-left: 9px;
+    transform: rotate(45deg);
+}
+
+.head-img {
+    width: 13%;
+    height: 100%;
+}
+
+.img-container {
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.img-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.head-info {
+    width: 55%;
+    height: 100%;
+    font-family: Rubik;
+    margin-top: 19px;
+}
+
+.head-info h1 {
+    font-size: 9px;
+    color: var(--White);
+    font-weight: 300;
+}
+
+.head-info p {
+    font-size: 7px;
+    color: var(--PaleVioletsub-headingtopappUIcoloR);
+    margin-top: -5px;
+}
+
+.head-icon2 {
+    width: 20%;
+    height: 100%;
+    padding: 20px 0px 0px 31px;
+}
+
+.point {
+    width: 1.5px;
+    height: 1.5px;
+    border-radius: 50%;
+    background-color: var(--White);
+    margin-top: 1.5px;
+}
+
+.bar {
+    background-color: var(--White);
+    width: 60%;
+    height: 29%;
+    position: absolute;
+    left: 20%;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.conversation-one,
+.conversation-two {
+    background-color: #ede5f3;
+    width: 62%;
+    padding: 8px;
+    line-height: 1.5;
+    color: var(--ModerateVioletchatleftcoloR);
+    font-family: Rubik;
+    font-size: 8px;
+    border-radius: 10px 10px 10px 2px;
+    margin: 6px 0px 0px 10px;
+}
+
+.section-two-img {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-two {
+    margin-top: 8px;
+}
+
+.section-two-img div {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+.section-two-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.conversation-container {
+    direction: rtl;
+}
+
+.conversation-three {
+    direction: ltr;
+    background-color: var(--White);
+    color: var(--ModerateVioletchatleftcoloR);
+    font-size: 8px;
+    font-family: Rubik;
+    width: 62%;
+    padding: 10px;
+    border-radius: 10px 10px 2px 10px;
+    margin-right: 7px;
+    margin-top: 6px;
+}
+
+.conversation-four {
+    direction: ltr;
+    width: 37%;
+    background-color: var(--White);
+    color: var(--ModerateVioletchatleftcoloR);
+    font-size: 8px;
+    font-family: Rubik;
+    padding: 7px;
+    border-radius: 10px 10px 2px 10px;
+    margin-right: 7px;
+    margin-top: 6px;
+}
+
+.section-three {}
+
+.conversation-five {
+    width: 62%;
+    padding: 7px;
+    background-color: #ede5f3;
+    font-family: Rubik;
+    font-size: 7px;
+    border-radius: 10px 10px 10px 2px;
+    color: var(--ModerateVioletchatleftcoloR);
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+.input-radio {
+    /* background-image: linear-gradient(to right, var(--GradLightMagentaColor), var(--GradLightVioletColor));
+    color: var(--white);
+    font-family: Rubik;
+    font-size: 8px;
+    padding: 7px;
+    border-radius: 10px;
+    color: var(--White); */
+}
+
+.input-radio {}
+
+
+
+.INone,
+.INtwo {
+    display: none;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 150px;
+    height: 25px;
+    background-image: linear-gradient(to right, var(--GradLightMagentaColor), var(--GradLightVioletColor));
+    color: var(--White);
+    font-family: Rubik;
+    font-size: 7px;
+    font-weight: 100;
+    border-radius: 7px 7px 7px 2px;
+    padding-left: 27px;
+    position: relative;
+}
+
+label span {
+    width: 10px;
+    height: 10Px;
+    border: 0.8px solid var(--White);
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+
+label span::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(3px, -3px) scale(0);
+}
+
+label input:checked~span::after {
+    transform: translate(3px, -3px) scale(1);
+}
+
+.label-one::before {
+    content: "$29";
+    font-size: 11px;
+    font-family: Rubik;
+    font-weight: bold;
+    color: var(--White);
+    position: absolute;
+    right: 15px;
+}
+
+.label-two::before {
+    content: "$49";
+    font-size: 11px;
+    font-family: Rubik;
+    font-weight: bold;
+    color: var(--White);
+    position: absolute;
+    right: 15px;
+}
+
+.section-four {
+    width: 90%;
+    height: 28px;
+    background-color: var(--White);
+    position: relative;
+    margin: 7px auto;
+    border-radius: 50Px;
+}
+
+input[type="text"] {
+    position: absolute;
+    top: 2px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 50Px;
+}
+
+input::placeholder {
+    color: var(--GrayishBlueplaceholder);
+    font-size: 10px;
+    font-family: Rubik;
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--VeryDarkDesaturatedVioletsubmitbuttonbackgroundColor);
+    cursor: pointer;
+}
+
+.icon3 {
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid var(--White);
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 13px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.part-two {
+    width: 50%;
+    height: 100%;
+    font-family: Rubik;
+    padding-top: 235px;
+    padding-left: 20px;
+    color: var(--VeryDarkDesaturatedVioletmainheading);
+}
+
+.part-two p {
+    font-size: 14px;
+    color: var(--DarkGrayishVioletparagraph);
+    line-height: 1.6;
+}
